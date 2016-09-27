@@ -1,0 +1,9 @@
+alias up='git pull --rebase --prune'
+alias cob='git checkout -b'
+alias cm='git add -A && git commit -m'
+alias save="git add -A && git commit -m 'SAVEPOINT'"
+alias undo='git reset HEAD~1 --mixed'
+alias hard='git reset --harda'
+alias amend='git commit -a --amend'
+alias difftool='git difftool'
+alias mergetool='git mergetool'
