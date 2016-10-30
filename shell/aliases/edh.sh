@@ -1,0 +1,5 @@
+alias startpandb='stopsupdb && docker start panoramix_panoramixdb_1 && docker start panoramix_redis_1'
+alias stoppandb='docker stop panoramix_panoramixdb_1 && docker stop panoramix_redis_1'
+alias startsupdb='stoppandb && docker start postgres && docker start redis'
+alias stopsupdb='docker stop postgres && docker stop redis'
+alias dropsuppostgres='cd ~/Code/edh/plain-services-docker; docker-compose stop postgres; docker-compose rm -f postgres; docker-compose up -d postgres'

@@ -6,6 +6,8 @@ install ruby-install
 install redis
 install postgresql
 install mysql
+install libmagic
+install mas
 
 cask install alfred
 cask install slack
