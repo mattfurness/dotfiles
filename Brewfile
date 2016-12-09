@@ -1,5 +1,6 @@
 install git
 install ack
+install ag
 install elixir
 install chruby
 install ruby-install
@@ -13,7 +14,7 @@ install tmux
 install dinghy
 install bash
 install bash-completion
-install bash-git-prompt 
+install bash-git-prompt
 install neovim/neovim/neovim
 
 cask install alfred
@@ -25,4 +26,5 @@ cask install dash
 cask install moom
 cask install spotify
 cask install 1password
-cask install hyperterm
+cask install hyper
+cask install monodraw

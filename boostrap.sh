@@ -11,3 +11,5 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
 mkdir ~/.config
 ln -s ~/.vim ~/.config/nvim
+npm install -g hpm-cli
+hpm i hyperterm-atom-dark

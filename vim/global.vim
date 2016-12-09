@@ -11,6 +11,13 @@ set foldmethod=indent                      " Fold based on source indentation
 set foldlevelstart=99                      " Expand all folds by default
 
 set number
+set relativenumber
 set autoread
+set showcmd
 
-let g:airline_theme='sol'
+let g:airline_theme='oceanicnext'
+if (has("termguicolors"))
+ set termguicolors
+endif
+syntax enable
+colorscheme OceanicNext
