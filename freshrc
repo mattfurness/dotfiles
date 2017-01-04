@@ -27,6 +27,8 @@ fresh shell/aliases/\*
 fresh shell/completion/\*
 fresh shell/path/\*
 fresh shell/prompt/\*
+fresh shell/env/\*
 
 fresh 'vim/plugins.vim' --file=~/.vimrc --marker='"'
 fresh 'vim/global.vim' --file=~/.vimrc --marker='"'
+fresh 'vim/grep.vim' --file=~/.vimrc --marker='"'
