@@ -4,7 +4,7 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 bash -c "`curl -sL https://get.freshshell.com`"
 source ~/.fresh/build/shell.sh
-ln -s ~/.freshrc ~/.dotfiles/freshrc
+ln -s ~/.dotfiles/freshrc ~/.freshrc
 fresh
 brew bundle
 sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
@@ -13,3 +13,10 @@ mkdir ~/.config
 ln -s ~/.vim ~/.config/nvim
 npm install -g hpm-cli
 hpm i hyperterm-atom-dark
+git config --global diff.tool bc3
+git config --global difftool.bc3.trustExitCode true
+git config --global difftool.prompt false
+git config --global merge.tool bc3
+git config --global mergetool.bc3.trustExitCode true
+git config --global mergetool.prompt false
+git config --global core.editor /usr/bin/vim
