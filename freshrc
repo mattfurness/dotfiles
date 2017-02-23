@@ -28,6 +28,7 @@ fresh shell/completion/\*
 fresh shell/path/\*
 fresh shell/prompt/\*
 fresh shell/env/\*
+fresh rupa/z z.sh
 
 fresh 'vim/plugins.vim' --file=~/.vimrc --marker='"'
 fresh 'vim/global.vim' --file=~/.vimrc --marker='"'
