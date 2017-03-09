@@ -17,6 +17,7 @@ fresh twe4ked/dotfiles config/ackrc --file
 fresh jasoncodes/dotfiles config/gemrc --file
 fresh Brewfile --file
 fresh inputrc --file
+fresh ctags --file
 fresh ruby-version --file
 
 fresh freshshell/fresh contrib/completion/fresh-completion.bash
