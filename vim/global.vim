@@ -24,16 +24,24 @@ colorscheme OceanicNext
 
 set clipboard=unnamed
 
+let g:auto_save = 1
+let g:auto_save_in_insert_mode = 0
+
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:rg_highlight = 1
 set completeopt+=menuone
 set shortmess+=c
 let g:mucomplete#enable_auto_at_startup = 1
 set completeopt+=noinsert,noselect
-let g:gutentags_cache_dir = '~/.tags_cache'
 autocmd BufReadPost,BufWritePost * Neomake
+let g:gutentags_cache_dir = '~/.gutentags/'
 
 autocmd BufWritePre * StripWhitespace
 
 nnoremap <leader><leader> <C-^>
 nnoremap <C-n> :%s///g<left><left>
+
+set noerrorbells visualbell t_vb=
+if has('autocmd')
+  autocmd GUIEnter * set visualbell t_vb=
+endif
