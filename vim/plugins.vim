@@ -18,6 +18,7 @@ Plug 'neomake/neomake'
 Plug 'lifepillar/vim-mucomplete'
 Plug 'tpope/vim-unimpaired'
 Plug 'vim-scripts/vim-auto-save'
+Plug 'rizzatti/dash.vim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
