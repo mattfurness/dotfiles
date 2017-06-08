@@ -35,6 +35,7 @@ let g:mucomplete#enable_auto_at_startup = 1
 set completeopt+=noinsert,noselect
 autocmd BufReadPost,BufWritePost * Neomake
 let g:gutentags_cache_dir = '~/.gutentags/'
+let g:neomake_javascript_enabled_makers = ['standard']
 
 autocmd BufWritePre * StripWhitespace
 
