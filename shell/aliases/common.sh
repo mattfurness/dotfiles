@@ -7,5 +7,5 @@ alias hist='cat ~/.bash_history | ag '
 alias nvim="nvim -u ~/.vimrc"
 alias vim="nvim"
 alias npi='docker-compose down && direnv allow && docker-compose up -d'
-
+alias uuid='uuidgen | tr "[:upper:]" "[:lower:]" | tr -d "\n" | pbcopy'
 export EDITOR="nvim -u ~/.vimrc"
