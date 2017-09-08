@@ -1,5 +1,6 @@
 alias reload='fresh && source ~/.bash_profile'
 alias ls='ls -Gla'
+alias xls="exa -Gla --git"
 alias sym='ln -s '
 alias servedir='python -m SimpleHTTPServer 8000'
 alias short='alias | ag'
