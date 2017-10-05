@@ -41,6 +41,7 @@ let g:mucomplete#enable_auto_at_startup = 1
 let g:gutentags_cache_dir = '~/.gutentags/'
 let g:gutentags_define_advanced_commands = 1
 let g:neomake_javascript_enabled_makers = ['standard']
+call neomake#configure#automake('w')
 
 autocmd BufWritePre * StripWhitespace
 
@@ -59,3 +60,5 @@ set noerrorbells visualbell t_vb=
 if has('autocmd')
   autocmd GUIEnter * set visualbell t_vb=
 endif
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
