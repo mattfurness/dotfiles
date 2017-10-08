@@ -38,8 +38,14 @@ autocmd BufReadPost,BufWritePost * Neomake
 
 let g:mucomplete#enable_auto_at_startup = 1
 
-let g:gutentags_cache_dir = '~/.gutentags/'
 let g:gutentags_define_advanced_commands = 1
+let g:gutentags_ctags_exclude = ['./**/dist', './**/node_modules']
+let g:gutentags_file_list_command = {
+\ 'markers': {
+    \ '.git': 'git ls-files',
+    \ '.hg': 'hg files',
+    \ },
+\ }
 let g:neomake_javascript_enabled_makers = ['standard']
 call neomake#configure#automake('w')
 
