@@ -37,6 +37,8 @@ set completeopt+=noinsert,noselect
 autocmd BufReadPost,BufWritePost * Neomake
 
 let g:mucomplete#enable_auto_at_startup = 1
+let g:mucomplete#chains = {}
+let g:mucomplete#chains.default = ['path', 'tags', 'c-n', 'incl', 'keyn', 'dict', 'uspl']
 
 let g:gutentags_define_advanced_commands = 1
 let g:gutentags_ctags_exclude = ['./**/dist', './**/node_modules']
