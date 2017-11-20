@@ -54,7 +54,7 @@ call neomake#configure#automake('w')
 autocmd BufWritePre * StripWhitespace
 
 nnoremap <leader><leader> <C-^>
-nnoremap <C-n> :%s///g<left><left>
+nnoremap <C-n> :%S///g<left><left>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <leader>t :NERDTreeFind<cr>
 nnoremap <leader><left> <C-w><left>
