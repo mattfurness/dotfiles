@@ -34,7 +34,6 @@ let g:rg_highlight = 1
 set completeopt+=menuone
 set shortmess+=c
 set completeopt+=noinsert,noselect
-autocmd BufReadPost,BufWritePost * Neomake
 
 let g:mucomplete#enable_auto_at_startup = 1
 let g:mucomplete#chains = {}
@@ -48,8 +47,6 @@ let g:gutentags_file_list_command = {
     \ '.hg': 'hg files',
     \ },
 \ }
-let g:neomake_javascript_enabled_makers = ['standard']
-call neomake#configure#automake('w')
 
 autocmd BufWritePre * StripWhitespace
 

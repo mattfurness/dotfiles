@@ -19,7 +19,7 @@ Plug 'rizzatti/dash.vim'
 Plug 'tpope/tpope-vim-abolish'
 Plug 'scrooloose/nerdtree'
 Plug 'ludovicchabant/vim-gutentags'
-Plug 'neomake/neomake'
+Plug 'w0rp/ale'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
