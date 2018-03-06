@@ -48,6 +48,11 @@ let g:gutentags_file_list_command = {
     \ },
 \ }
 
+let g:ale_fixers = {
+\   'typescript': ['prettier'],
+\}
+let g:ale_fix_on_save = 1
+
 autocmd BufWritePre * StripWhitespace
 
 nnoremap <leader><leader> <C-^>
