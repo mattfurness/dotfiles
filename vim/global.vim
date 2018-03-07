@@ -65,6 +65,9 @@ nnoremap <leader><up> <C-w><up>
 nnoremap <leader><down> <C-w><down>
 nnoremap <leader>f :files<CR>
 nnoremap <leader>b :buffers<CR>
+nnoremap <leader>aj :ALENext<CR>
+nnoremap <leader>ak :ALEPrevious<CR>
+nnoremap <leader>ad :ALEDetail<CR>
 
 set noerrorbells visualbell t_vb=
 if has('autocmd')
