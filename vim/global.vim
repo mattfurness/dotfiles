@@ -48,7 +48,6 @@ let g:gutentags_file_list_command = {
     \ },
 \ }
 
-let g:ale_elixir_mix_options = 'MIX_ENV=lint mix'
 let g:ale_linters = {
 \   'elixir': ['dialyxir'],
 \}
