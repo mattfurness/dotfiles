@@ -11,8 +11,6 @@ sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
 mkdir ~/.config
 ln -s ~/.vim ~/.config/nvim
-npm install -g hpm-cli
-hpm i hyperterm-atom-dark
 git config --global diff.tool bc3
 git config --global difftool.bc3.trustExitCode true
 git config --global difftool.prompt false
