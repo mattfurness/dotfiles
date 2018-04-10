@@ -1,0 +1,16 @@
+{
+    "window.zoomLevel": 1,
+    "editor.codeLens": false,
+    "workbench.editor.showTabs": false,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "[HTML (Eex)]": {
+
+    },
+    "editor.lineNumbers": "relative",
+    "vim.useSystemClipboard": true,
+    "vim.leader": ",",
+    "vim.hlsearch": true
+}
