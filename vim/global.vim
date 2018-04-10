@@ -48,15 +48,20 @@ let g:gutentags_file_list_command = {
     \ },
 \ }
 
+let g:ale_elixir_mix_options = 'MIX_ENV=lint mix'
+let g:ale_linters = {
+\   'elixir': ['dialyxir'],
+\}
 let g:ale_fixers = {
 \   'typescript': ['prettier'],
+\   'elixir': ['mix_format'],
 \}
 let g:ale_fix_on_save = 1
 
 autocmd BufWritePre * StripWhitespace
 
 nnoremap <leader><leader> <C-^>
-nnoremap <C-n> :%S///g<left><left>
+nnoremap <C-n> :%s///g<left><left>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <leader>t :NERDTreeFind<cr>
 nnoremap <leader><left> <C-w><left>
