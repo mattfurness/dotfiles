@@ -20,3 +20,4 @@ git config --global mergetool.prompt false
 git config --global core.editor /usr/bin/vim
 git config --global mergetool.keepBackup false
 shopt -s globstar
+curl https://nixos.org/nix/install | sh
