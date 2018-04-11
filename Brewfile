@@ -1,3 +1,4 @@
+brew 'fd'
 brew 'git'
 brew 'gnu-sed'
 brew 'graphviz'
