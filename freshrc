@@ -15,7 +15,7 @@ fresh freshshell/fresh contrib/source-build.sh --file=~/.bashrc
 
 fresh twe4ked/dotfiles config/ackrc --file
 fresh jasoncodes/dotfiles config/gemrc --file
-fresh Brewfile --file
+fresh Brewfile --file=Brewfile
 fresh inputrc --file
 fresh ctags --file
 fresh ruby-version --file
