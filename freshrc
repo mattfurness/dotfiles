@@ -20,6 +20,8 @@ fresh ctags --file
 
 fresh freshshell/fresh contrib/completion/fresh-completion.bash
 fresh twe4ked/dotfiles shell/aliases/git.sh
+fresh jasoncodes/dotfiles shell/aliases/\*
+fresh foobacca/dotfiles shell/aliases-dir
 fresh shell/aliases/\*
 fresh shell/completion/\*
 fresh shell/path/\*
