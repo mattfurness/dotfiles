@@ -12,5 +12,6 @@
     "editor.lineNumbers": "relative",
     "vim.useSystemClipboard": true,
     "vim.leader": ",",
-    "vim.hlsearch": true
+    "vim.hlsearch": true,
+    "editor.formatOnSave": true
 }
