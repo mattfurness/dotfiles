@@ -50,6 +50,7 @@ let g:gutentags_file_list_command = {
 
 let g:ale_linters = {
 \   'elixir': ['dialyxir'],
+\ 'haskell': ['ghc', 'hlint'],
 \}
 let g:ale_fixers = {
 \   'typescript': ['prettier'],
