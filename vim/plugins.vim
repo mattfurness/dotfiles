@@ -23,7 +23,7 @@ Plug 'w0rp/ale'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'mhartington/oceanic-next'
+Plug 'chriskempson/base16-vim'
 
 Plug 'editorconfig/editorconfig-vim'
 Plug 'sheerun/vim-polyglot'

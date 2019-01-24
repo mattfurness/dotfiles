@@ -15,12 +15,11 @@ set relativenumber
 set autoread
 set showcmd
 
-let g:airline_theme='oceanicnext'
-if (has("termguicolors"))
- set termguicolors
-endif
 syntax enable
-colorscheme OceanicNext
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
 
 set clipboard=unnamed
 
