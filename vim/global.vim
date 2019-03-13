@@ -14,6 +14,8 @@ set number
 set relativenumber
 set autoread
 set showcmd
+set undofile
+set undodir=~/.vim/undodir
 
 syntax enable
 if filereadable(expand("~/.vimrc_background"))

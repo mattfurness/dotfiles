@@ -22,3 +22,4 @@ git config --global mergetool.keepBackup false
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 shopt -s globstar
 curl https://nixos.org/nix/install | sh
+mkdir ~/.vim/undodir
