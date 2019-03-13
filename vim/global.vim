@@ -50,14 +50,16 @@ let g:gutentags_file_list_command = {
 \ }
 
 let g:ale_linters = {
-\   'elixir': ['dialyxir'],
+\ 'elixir': ['dialyxir'],
 \ 'haskell': ['hlint'],
 \}
 let g:ale_fixers = {
-\   'typescript': ['prettier'],
-\   'elixir': ['mix_format'],
+\ 'typescript': ['prettier'],
+\ 'elixir': ['mix_format'],
+\ 'elm': ['format'],
 \}
 let g:ale_fix_on_save = 1
+let g:ale_set_highlights = 0
 
 autocmd BufWritePre * StripWhitespace
 
@@ -74,6 +76,10 @@ nnoremap <leader>b :buffers<CR>
 nnoremap <leader>aj :ALENext<CR>
 nnoremap <leader>ak :ALEPrevious<CR>
 nnoremap <leader>ad :ALEDetail<CR>
+nnoremap <leader>ah :ALEHover<CR>
+nnoremap <leader>agd :ALEGoToDefinition<CR>
+nnoremap <leader>afr :ALEFindReferences<CR>
+noremap Y y$
 
 set noerrorbells visualbell t_vb=
 if has('autocmd')
