@@ -33,3 +33,7 @@ fresh rupa/z z.sh
 fresh 'vim/plugins.vim' --file=~/.vimrc --marker='"'
 fresh 'vim/global.vim' --file=~/.vimrc --marker='"'
 fresh ignore --file=~/.config/git/ignore
+fresh alacritty.yml --file=~/.config/alacritty/alacritty.yml
+fresh tmux.conf --file=~/.tmux.conf
+
+fresh jamesottaway/tmux-up tmux-up --bin
