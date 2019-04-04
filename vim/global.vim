@@ -25,7 +25,7 @@ endif
 
 set clipboard=unnamed
 
-let g:auto_save = 1
+let g:auto_save = 0
 let g:auto_save_in_insert_mode = 0
 
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
