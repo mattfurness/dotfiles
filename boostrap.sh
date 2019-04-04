@@ -20,6 +20,7 @@ git config --global mergetool.prompt false
 git config --global core.editor /usr/bin/vim
 git config --global mergetool.keepBackup false
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+git config --global rebase.autosquash true
 shopt -s globstar
 curl https://nixos.org/nix/install | sh
 mkdir ~/.vim/undodir
