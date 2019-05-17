@@ -54,6 +54,7 @@ let g:ale_fixers = {
 \ 'typescript': ['prettier'],
 \ 'elixir': ['mix_format'],
 \ 'elm': ['format'],
+\ 'haskell': ['brittany'],
 \}
 let g:ale_fix_on_save = 1
 let g:ale_set_highlights = 0
