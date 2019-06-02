@@ -15,11 +15,6 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.autoClosingBrackets": false,
     "files.insertFinalNewline": true,
-    "rest-client.environmentVariables": {
-        "$shared": {
-            "blackbaud-auth-token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkNGRDM4QzkyQThFMkNCQUVFMjlDMzM3ODZBQUFFRTY1NzE0MEVBNTQiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiI5ODViYTMwOS02ODlhLTRkZWEtOTMwOC01YzI5MjU3MTJlMmUiLCJlbWFpbCI6IlYtTWF0dGhldy5GdXJuZXNzQGJsYWNrYmF1ZC5jb20uYXUiLCJnaXZlbl9uYW1lIjoiVi1NYXR0aGV3IiwiZmFtaWx5X25hbWUiOiJGdXJuZXNzIiwiMWJiLnNlc3Npb25faWQiOiJHNm9DdW1HZ2VzSGxHZ01JUVRBWlpIV3FlNlZ6NW1ONVkxc2FRdVJxNTFob0lseE1UeHl1Ymx4RkVpSFhPaGFObFdyOWswQU5nb2Q2OVZpQ1pXOVEiLCIxYmIucGVybXMiOjEsIjFiYi5lbnZpcm9ubWVudF9pZCI6InQtaTEtaWF0TGNnMGlaUmNYeWZma19lQSIsIjFiYi5sZWdhbF9lbnRpdHlfaWQiOiJ0LXBHeTFLbWZ2Q2tTYXNwcFNHYWVkVHciLCIxYmIuem9uZSI6InAtdXNhMDEiLCJleHAiOjE1NDU4Njk0NTYsImlhdCI6MTU0NTg2OTE1NiwiaXNzIjoiaHR0cHM6Ly9zaWduaW4uYmxhY2tiYXVkLmNvbS8iLCJhdWQiOiJibGFja2JhdWQifQ.Y2CfnB0v-iEFPc-ZDC8lGL6tUp4h3vFGJq2fr5ZCL-6iuN2j3DACoptu_CGW3Sy4r4r3fTn2SX-Tc2VRNd6hc9vymO_W6Pf1lPp57QbgOHYePo80nOnVDrthoRfDrtGQ5NdkmRE966NKwTYfariBKVvD1WTtoMc4v8R7_xOeDAcIwtGgmx5samZYi6U-hLEl0TXYS7SCMGyYMSDPN7iOxFPNyIqof-BXSRUU4Hh7qoy__N0lTvvjDf0HiWWhVUYSh8UjgBHPxr2z2NuvUVGA0sX575b-pnuFHDPttA7XiyvFMU8_tE81X3jC2MSzyuH3JOGWcqucStfDs3mhDefs5Q"
-        }
-    },
     "editor.codeLens": false,
     "vim.visualModeKeyBindingsNonRecursive": [
         {
