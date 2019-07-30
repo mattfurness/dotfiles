@@ -8,4 +8,5 @@ alias servedir='python -m SimpleHTTPServer 8000'
 alias sym='ln -s '
 alias uuid='uuidgen | tr "[:upper:]" "[:lower:]" | tr -d "\n" | pbcopy'
 alias vim='nvim'
+alias pbB64='pbpaste | base64 -w 0 | pbcopy'
 export EDITOR="nvim -u ~/.vimrc"
