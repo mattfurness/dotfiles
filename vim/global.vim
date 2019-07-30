@@ -52,14 +52,17 @@ let g:gutentags_file_list_command = {
 let g:ale_linters = {
 \ 'elixir': ['dialyxir'],
 \ 'haskell': ['hlint'],
+\ 'python': ['pyls'],
 \}
 let g:ale_fixers = {
 \ 'typescript': ['prettier'],
 \ 'elixir': ['mix_format'],
 \ 'elm': ['format'],
 \ 'haskell': ['brittany'],
+\ 'python': ['black'],
 \}
 let g:ale_fix_on_save = 1
+let g:ale_completion_enabled = 1
 let g:ale_set_highlights = 0
 
 autocmd BufWritePre * StripWhitespace
