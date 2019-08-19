@@ -51,6 +51,7 @@ let g:gutentags_file_list_command = {
 
 let g:ale_linters = {
 \ 'elixir': ['dialyxir'],
+\ 'elm': ['make', 'elm_ls'],
 \ 'haskell': ['hlint'],
 \ 'python': ['pyls'],
 \}
@@ -64,6 +65,7 @@ let g:ale_fixers = {
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1
 let g:ale_set_highlights = 0
+let g:ale_elm_ls_executable = "./node_modules/.bin/elm-language-server"
 
 autocmd BufWritePre * StripWhitespace
 
@@ -81,8 +83,8 @@ nnoremap <leader>aj :ALENext<CR>
 nnoremap <leader>ak :ALEPrevious<CR>
 nnoremap <leader>ad :ALEDetail<CR>
 nnoremap <leader>ah :ALEHover<CR>
-nnoremap <leader>agd :ALEGoToDefinition<CR>
-nnoremap <leader>afr :ALEFindReferences<CR>
+nnoremap <leader>gd :ALEGoToDefinition<CR>
+nnoremap <leader>fr :ALEFindReferences<CR>
 noremap Y y$
 
 set noerrorbells visualbell t_vb=
