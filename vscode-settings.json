@@ -2,24 +2,20 @@
     "window.zoomLevel": 0,
     "workbench.editor.showTabs": false,
     "editor.minimap.enabled": false,
-    "files.autoSave": "afterDelay",
     "editor.renderWhitespace": "boundary",
     "files.trimTrailingWhitespace": true,
-    "[HTML (Eex)]": {},
     "editor.lineNumbers": "relative",
     "vim.useSystemClipboard": true,
     "vim.leader": ",",
     "vim.hlsearch": true,
     "editor.formatOnSave": true,
-    "csharp.format.enable": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "editor.autoClosingBrackets": false,
-    "files.insertFinalNewline": true,
+    "editor.autoClosingBrackets": "never",
     "editor.codeLens": false,
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "p",
+                "p"
             ],
             "after": [
                 "p",
@@ -27,113 +23,7 @@
                 "v",
                 "y"
             ]
-        }
-    ],
-    "vim.normalModeKeyBindings": [
-        // Go replace inner word
-        {
-            "before": [
-                "g",
-                "r",
-                "i",
-                "w"
-            ],
-            "after": [
-                "v",
-                "i",
-                "w",
-                "p"
-            ]
         },
-        // Go replace inner "
-        {
-            "before": [
-                "g",
-                "r",
-                "i",
-                "\""
-            ],
-            "after": [
-                "v",
-                "i",
-                "\"",
-                "p"
-            ]
-        },
-        // Go replace inner '
-        {
-            "before": [
-                "g",
-                "r",
-                "i",
-                "'"
-            ],
-            "after": [
-                "v",
-                "i",
-                "'",
-                "p"
-            ]
-        },
-        // Go replace inner ()
-        {
-            "before": [
-                "g",
-                "r",
-                "i",
-                "("
-            ],
-            "after": [
-                "v",
-                "i",
-                "(",
-                "p"
-            ]
-        },
-        {
-            "before": [
-                "g",
-                "r",
-                "i",
-                ")"
-            ],
-            "after": [
-                "v",
-                "i",
-                ")",
-                "p"
-            ]
-        },
-        // Go replace inner []
-        {
-            "before": [
-                "g",
-                "r",
-                "i",
-                "["
-            ],
-            "after": [
-                "v",
-                "i",
-                "[",
-                "p"
-            ]
-        },
-        {
-            "before": [
-                "g",
-                "r",
-                "i",
-                "]"
-            ],
-            "after": [
-                "v",
-                "i",
-                "]",
-                "p"
-            ]
-        },
-        // Yank to end of line
         {
             "before": [
                 "Y"
@@ -144,10 +34,12 @@
             ]
         }
     ],
+    "vim.replaceWithRegister": true,
     "FSharp.fsacRuntime": "netcore",
-    "fantomas.preserveEOL": true,
-    "fantomas.indent": 2,
-    "fantomas.pageWidth": 120,
     "editor.formatOnSaveTimeout": 1500,
-    "files.autoSaveDelay": 3000
+    "editor.codeActionsOnSaveTimeout": 1000,
+    "editor.detectIndentation": false,
+    "fantomas.pageWidth": 120,
+    "fantomas.reorderOpenDeclaration": true,
+    "editor.autoClosingQuotes": "never"
 }
