@@ -10,8 +10,6 @@ Plug 'vim-scripts/ReplaceWithRegister'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'wellle/targets.vim'
 Plug 'tpope/vim-eunuch'
-Plug 'kien/ctrlp.vim'
-Plug 'jremmen/vim-ripgrep'
 Plug 'lifepillar/vim-mucomplete'
 Plug 'tpope/vim-unimpaired'
 Plug 'vim-scripts/vim-auto-save'
@@ -29,5 +27,8 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'kana/vim-textobj-user'
 Plug 'andyl/vim-textobj-elixir'
+
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
