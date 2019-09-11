@@ -1,5 +1,5 @@
 alias fcd='cd $(fd -t d | fzf)'
-alias ls='exa -la'
+alias ls='exa -lag'
 alias cat='bat'
 alias npi='docker-compose down && direnv allow && docker-compose up -d'
 alias nvim='nvim -u ~/.vimrc'
