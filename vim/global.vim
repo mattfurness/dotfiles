@@ -77,15 +77,20 @@ nnoremap <leader><left> <C-w><left>
 nnoremap <leader><right> <C-w><right>
 nnoremap <leader><up> <C-w><up>
 nnoremap <leader><down> <C-w><down>
-nnoremap <leader>f :files<CR>
-nnoremap <leader>b :buffers<CR>
+nnoremap <leader>f :Files<CR>
+nnoremap <leader>b :Buffers<CR>
+noremap Y y$
+
+" ALE
 nnoremap <leader>aj :ALENext<CR>
 nnoremap <leader>ak :ALEPrevious<CR>
 nnoremap <leader>ad :ALEDetail<CR>
 nnoremap <leader>ah :ALEHover<CR>
 nnoremap <leader>gd :ALEGoToDefinition<CR>
 nnoremap <leader>fr :ALEFindReferences<CR>
-noremap Y y$
+
+" Fuzzy find
+nnoremap <C-p> :GFiles<CR>
 
 set noerrorbells visualbell t_vb=
 if has('autocmd')
