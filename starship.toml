@@ -1,0 +1,29 @@
+# starship.toml
+prompt_order = [
+    "username",
+    "directory",
+    "nix_shell",
+    "git_branch",
+    "git_state",
+    "git_status",
+    "cmd_duration",
+    "jobs",
+    "line_break",
+    "character",
+]
+
+[git_status]
+ahead = "↑"
+behind = "↓"
+diverged = "⤮ "
+staged = "✮"
+modified = " "
+untracked = ""
+
+[nix_shell]
+impure_msg = " "
+pure_msg = " "
+
+[character]
+vicmd_symbol = "❮"
+use_symbol_for_status = true
