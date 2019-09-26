@@ -19,11 +19,11 @@ fresh inputrc --file
 fresh ctags --file
 
 fresh jasoncodes/dotfiles shell/aliases/git.sh
+fresh shell/env/\*
 fresh shell/aliases/\*
 fresh shell/completion/\*
 fresh shell/path/\*
 fresh shell/prompt/\*
-fresh shell/env/\*
 fresh rupa/z z.sh
 
 fresh 'vim/plugins.vim' --file=~/.vimrc --marker='"'
