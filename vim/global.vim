@@ -61,6 +61,7 @@ let g:ale_fixers = {
 \ 'elm': ['format'],
 \ 'haskell': ['brittany'],
 \ 'python': ['black'],
+\ 'nix': ['nixpkgs-fmt'],
 \}
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1
