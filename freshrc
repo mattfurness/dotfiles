@@ -32,5 +32,6 @@ fresh ignore --file=~/.config/git/ignore
 fresh alacritty.yml --file=~/.config/alacritty/alacritty.yml
 fresh starship.toml --file=~/.config/starship.toml
 fresh tmux.conf --file=~/.tmux.conf
+fresh ideavimrc --file=~/.ideavimrc
 
 fresh jamesottaway/tmux-up tmux-up --bin
