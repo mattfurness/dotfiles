@@ -74,10 +74,10 @@ nnoremap <leader><leader> <C-^>
 nnoremap <C-n> :%s///gc<left><left><left>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <leader>t :NERDTreeFind<cr>
-nnoremap <leader><left> <C-w><left>
-nnoremap <leader><right> <C-w><right>
-nnoremap <leader><up> <C-w><up>
-nnoremap <leader><down> <C-w><down>
+nnoremap <leader>h <C-w><left>
+nnoremap <leader>l <C-w><right>
+nnoremap <leader>k <C-w><up>
+nnoremap <leader>j <C-w><down>
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>b :Buffers<CR>
 noremap Y y$
