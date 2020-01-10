@@ -18,6 +18,7 @@ Plug 'tpope/tpope-vim-abolish'
 Plug 'scrooloose/nerdtree'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'w0rp/ale'
+Plug 'terryma/vim-multiple-cursors'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'

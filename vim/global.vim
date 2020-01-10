@@ -71,7 +71,7 @@ let g:ale_elm_ls_executable = "./node_modules/.bin/elm-language-server"
 autocmd BufWritePre * StripWhitespace
 
 nnoremap <leader><leader> <C-^>
-nnoremap <C-n> :%s///gc<left><left><left>
+nnoremap <C-m> :%s///gc<left><left><left>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <leader>t :NERDTreeFind<cr>
 nnoremap <leader>h <C-w><left>
