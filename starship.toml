@@ -21,8 +21,8 @@ modified = " "
 untracked = ""
 
 [nix_shell]
-impure_msg = " "
-pure_msg = " "
+symbol = " "
+impure_msg = ""
 
 [character]
 symbol = "λ"
