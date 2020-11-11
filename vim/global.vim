@@ -28,13 +28,12 @@ set clipboard=unnamed
 let g:auto_save = 0
 let g:auto_save_in_insert_mode = 0
 
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
-
 let g:rg_highlight = 1
 
 set completeopt+=menuone
 set shortmess+=c
 set completeopt+=noinsert,noselect
+set splitbelow
 
 let g:mucomplete#enable_auto_at_startup = 1
 let g:mucomplete#chains = {}
@@ -62,6 +61,7 @@ let g:ale_fixers = {
 \ 'haskell': ['brittany'],
 \ 'python': ['black'],
 \ 'nix': ['nixpkgs-fmt'],
+\ 'terraform': ['terraform'],
 \}
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1
@@ -100,3 +100,4 @@ endif
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
